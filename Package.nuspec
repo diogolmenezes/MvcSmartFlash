@@ -5,16 +5,12 @@
     <version>1.0.0</version>
     <authors>Diogo Menezes</authors>
     <owners>Diogo Menezes</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <licenseUrl>https://github.com/diogolmenezes/MvcSmartFlash/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/diogolmenezes/MvcSmartFlash</projectUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Based rails flash messages for asp.net MVC</description>
+    <releaseNotes>Based rails flash messages for asp.net MVC</releaseNotes>
     <copyright>Copyright 2015</copyright>
-    <tags>Tag1 Tag2</tags>
-    <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
-    </dependencies>
+    <tags>Rails MVC flash message</tags>
   </metadata>
 </package>
