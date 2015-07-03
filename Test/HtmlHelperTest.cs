@@ -4,7 +4,6 @@ using MvcSmartFlash.Test.Util;
 using System.IO;
 using System.Web.Mvc;
 
-
 namespace MvcSmartFlash.Test
 {
     [TestClass]
