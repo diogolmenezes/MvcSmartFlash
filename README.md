@@ -18,19 +18,22 @@ MvcSmartFlash can create flash messages from your controller
 ```c#
 using MvcSmartFlash.Core;
 
-public virtual ActionResult YourAction()
+public class FooController : Controller
 {
-    // doing something
-    foo();
+    public virtual ActionResult FooAction()
+    {
+        // doing something
+        foo();
 
-    // sending flash message with custom css class
-    this.Flash("alert alert-success", "Yes! You did it!");
+        // sending flash message with custom css class
+        this.Flash("alert alert-success", "Yes! You did it!");
 
-    // sending flash messages predefined classes
-    this.FlashSuccess("Yes! You did it!");
-    this.FlashInfo("Hey, look to this info");
-    this.FlashError(":( We have a error");
-    this.FlashAlert("Caution! Are you sure?");
+        // sending flash messages predefined classes
+        this.FlashSuccess("Yes! You did it!");
+        this.FlashInfo("Hey, look to this info");
+        this.FlashError(":( We have a error");
+        this.FlashAlert("Caution! Are you sure?");
+    }
 }
 ```
 
