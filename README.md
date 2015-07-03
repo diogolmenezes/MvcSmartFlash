@@ -34,6 +34,21 @@ public virtual ActionResult YourAction()
 }
 ```
 
+## Render Messages in view
+
+MvcSmartFlash can create flash messages from your controller
+
+```c#
+@using MvcSmartFlash.Core;
+
+<!-- your html -->
+    
+@Html.RenderFlash()
+
+<!-- your html -->
+
+```
+
 ## Tests
 
 MvcSmartFlash has many tests in the test project if you want take a look.
